@@ -1,0 +1,254 @@
+/* common */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  width: 100%;
+  padding: 10px 4% 10px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-a {
+  text-decoration: none;
+  color: gray;
+}
+
+.header-nav {
+  margin: 0 0 0 auto;
+}
+
+.header-ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.header-li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+
+/* body */
+/* アイキャッチ */
+.eyecatch {
+  position: relative;
+}
+
+.eyecatch-img {
+  width: 60%;
+  margin: 0 0 0 auto;
+  display: block;
+  margin-top: 100px;
+}
+
+.message-1 {
+  font-family: "Shadows Into Light", cursive;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  font-size: 50px;
+  color: darkmagenta;
+  /* transform: translate(-50%); */
+}
+
+.message-2 {
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  font-size: 16px;
+  color: darkmagenta;
+  font-weight: bold;
+  /* transform: translate(-50%); */
+}
+
+.message-3 {
+  position: absolute;
+  top: 280px;
+  left: 30%;
+  font-size: 12px;
+  /* transform: translate(-50%); */
+}
+
+/* ニュースリスト */
+.newslist {
+  padding: 50px 0;
+}
+
+.newslist-contents {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.newslist h2 {
+  font-size: 18px;
+  color: darkmagenta;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.newslist .sub-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.newslist ul {
+  border-top: 2px solid rgb(219, 219, 219);
+  border-bottom: 2px solid rgb(219, 219, 219);
+  padding: 20px 0;
+}
+
+.newslist li {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.newslist .newslist-box {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.newslist .newslist-box p {
+  padding: 1px 10px;
+  background-color: darkmagenta;
+  color: #fff;
+  margin: 0 15px;
+  border-radius: 20px;
+}
+
+.newslist .newslist-text {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.newslist .newslist-text a {
+  text-decoration: none;
+  color: black;
+}
+
+/* アバウト */
+.about {
+  background-color: rgb(241, 241, 241);
+  padding: 50px 0;
+}
+
+.about-contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 18px;
+  color: darkmagenta;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.about .sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-desc {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-desc p {
+  width: 300px;
+  /* margin-right: 10%; */
+}
+
+.about-desc img {
+  width: 300px;
+  /* margin-left: 10%; */
+}
+
+/* サービス */
+.service {
+  padding: 50px 0;
+}
+
+.service-contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service h2 {
+  font-size: 18px;
+  color: darkmagenta;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.service .sub-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid div {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: rgb(122, 0, 106);
+}
+
+.card-1 .items {
+  align-items: center;
+}
+
+.card-1 p {
+  text-align: left;
+}
+
+.card-2 {
+  background: rgb(255, 68, 224);
+  display: flex;
+}
+
+.card-2 .text {
+  text-align: left;
+}
+
+.card-3 {
+  background: rgb(197, 117, 184);
+  display: flex;
+  text-align: left;
+}
+
+.card-3 .text {
+  text-align: left;
+}
