@@ -24,6 +24,7 @@ header {
   top: 0;
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 
 .header-a {
@@ -276,14 +277,14 @@ header {
 
 .blog-cards {
   display: flex;
-  margin: 40px auto;
+  justify-content: space-around;
+  margin: 50px 0;
 }
 
-.blog1 {
-  width: 250px;
-  height: 300px;
+.blog-card {
   background: white;
   border-radius: 10px;
+  width: 30%;
 }
 
 .card-img {
@@ -318,6 +319,7 @@ header {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+  margin-top: 40px;
 }
 
 /* カンパニー */
